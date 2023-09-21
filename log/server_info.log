@@ -1,0 +1,8 @@
+[server]2023/07/29 - 22:30:17.474	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/initialize/router.go:14	use middleware logger
+[server]2023/07/29 - 22:30:17.475	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/initialize/router.go:16	use middleware cors
+[server]2023/07/29 - 22:30:17.475	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/initialize/router.go:49	router register success
+[server]2023/07/29 - 22:30:17.475	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[server]2023/07/30 - 12:54:07.670	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/initialize/router.go:14	use middleware logger
+[server]2023/07/30 - 12:54:07.670	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/initialize/router.go:16	use middleware cors
+[server]2023/07/30 - 12:54:07.671	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/initialize/router.go:49	router register success
+[server]2023/07/30 - 12:54:07.671	[34minfo[0m	/Users/fengweiming/workspace/github/myCode2023/admin-template/server/core/server.go:30	server run success on 	{"address": ":8888"}
