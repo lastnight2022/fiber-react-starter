@@ -25,7 +25,7 @@ func NewHTTPHandler(endpoints endpoints.Endpoints, logger log.Logger) http.Handl
 
 	m.Methods("GET").Path("/health").Handler(httptransport.NewServer(endpoints.HealthEndpoint, DecodeHttpHealthRequest, EncodeHttpGenericResponse, options...))
 	m.Methods("GET").Path("/greeting").Handler(httptransport.NewServer(endpoints.GreetingEndpoint, DecodeHttpGreetingRequest, EncodeHttpGenericResponse, options...))
-
+	return m
 }
 
 func EncodeHttpGenericResponse(ctx context.Context, writer http.ResponseWriter, response interface{}) error {
